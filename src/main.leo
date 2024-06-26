@@ -11,6 +11,17 @@ program elections_voting.aleo {
         return update_candidates(self.caller);
     }
 
+    async transition tally(candidate0: address, candidate1: address) -> Future {
+        return get_winner(candidate0, candidate1);
+    }
+
+    async function get_winner(candidate0: address, candidate1: address) {
+        let votes_candidate0: u64 = Mapping::get_or_use(candidate_votes, candidate0, 0u64);
+        let votes_candidate1: u64 = Mapping::get_or_use(candidate_votes, candidate1, 0u64);
+
+        assert(votes_candidate0 > votes_candidate1);
+    }
+
     async function update_candidates(candidate: address) {
         let already_postulated: bool = Mapping::contains(candidate_votes, candidate);
 
