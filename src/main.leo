@@ -37,7 +37,6 @@ program elections_voting.aleo {
     }
 
     async function update_candidates(candidate: address) {
-        assert(Mapping::size(candidates) < MAX_CANDIDATES);
         let already_postulated: bool = Mapping::contains(candidate_votes, candidate);
 
         assert(!already_postulated);
