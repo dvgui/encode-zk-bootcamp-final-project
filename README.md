@@ -25,11 +25,20 @@ Use <https://explorer.aleo.org> to view deployment transaction details
 
 Replace variables with content and run script
 
-```bash
-. ./run.sh
+### Vote
 
+```bash
+. ./vote.sh
 ```
 
-## Technical Details
+### Postulate
 
-[TBC]
+```bash
+. ./postulate.sh
+```
+
+## Limitations encountered
+
+- The vsCode extension seems to be using an older version of the leo language so it lints the syntax like `async` or suggest using `finalize` when this seems to be no longer supported.
+
+- The language seems very restrictive imo, so we struggled when trying to include features like tally votes or others because we couldn't easily iterate. Maybe this is intended for the purpose of the programs logic.
