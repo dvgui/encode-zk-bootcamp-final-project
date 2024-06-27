@@ -1,4 +1,4 @@
-program elections_voting.aleo {
+program elections_voting_axm8kq_1.aleo {
 
     mapping voter_participation: address => bool;
     mapping candidate_votes: address => u64;
