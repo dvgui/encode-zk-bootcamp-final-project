@@ -49,13 +49,13 @@ You can only postulate once, otherwise the execution will fail.
 
 ## Demo examples
 
-- Deployed program: <https://explorer.aleo.org/transaction/at1lmq676mfdt67r6htxkyre8ussn5s3ajcvyhqehqedmzpx35mmvxsknk9qg?tab=overview>
+- Deployed program: <https://explorer.aleo.org/transaction/at1fy5gg6npv47hyqnmwj3aajlsre0k8nd5k23a26ucktkrvv087cyslfh3me>
 
 ![Deployed Program Broadcast example](./docs/deployed-example.png)
 
-- Postulate: <https://explorer.aleo.org/transaction/at17h78ftt5c0f286r86lzucmaaxlfqcqz2qw4zh2lpnhpaupqxjuqqmj3w5t>
+- Postulate: <https://explorer.aleo.org/transaction/at1t40h9y4mqw3grpxjehhquj0329ck7vkpycuw537pmxm87ekz5ypsk2n2s7>
 
-- Vote: <https://explorer.aleo.org/transaction/at1f5v4qf3p740j7n03mvrwzek6umg9ymk884cwccv79epaw4lk5u9symflry?tab=transitions>
+- Vote: <https://explorer.aleo.org/transaction/at10y86kvnu74h08uykgq0z43vcmfwdqd68cxg6aa9ahg4mcvzgfvzssdcz2r>
 
 ![Vote tx example](./docs/vote-tx-example.png)
 
