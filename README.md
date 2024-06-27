@@ -53,8 +53,6 @@ Use <https://explorer.aleo.org> to view deployment transaction details
 
 - Postulate: <https://explorer.aleo.org/transaction/at17h78ftt5c0f286r86lzucmaaxlfqcqz2qw4zh2lpnhpaupqxjuqqmj3w5t>
 
-![Postulate tx example]
-
 - Vote: <https://explorer.aleo.org/transaction/at1f5v4qf3p740j7n03mvrwzek6umg9ymk884cwccv79epaw4lk5u9symflry?tab=transitions>
 
 ![Vote tx example](./docs/vote-tx-example.png)
