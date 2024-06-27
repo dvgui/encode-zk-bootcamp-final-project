@@ -11,7 +11,21 @@ This project is the final project of the ZK Bootcamp Q2 2024, showcasing the pra
 
 ## Try out
 
-**Important**: Replace variables with correct inputs before running scripts.
+Use <https://explorer.aleo.org> to view deployment transaction details
+
+**Important**: Replace variables with correct inputs of your wallet before running scripts.
+
+### Prerequisites
+
+- Install Leo, Rust, SnarkOS <https://developer.aleo.org/leo/installation#1-install-the-prerequisites>
+- Make sure to fund the leo wallet <https://www.leo.app/blog/aleo-faucet>.
+
+
+### Deploy
+
+```bash
+leo deploy --network testnet
+```
 
 ### Vote
 
@@ -28,22 +42,6 @@ You can only postulate once, otherwise the execution will fail.
 ```bash
 . ./scripts/postulate.sh
 ```
-
-## Contribute
-
-### Prerequisites
-
-- Install Leo, Rust, SnarkOS <https://developer.aleo.org/leo/installation#1-install-the-prerequisites>
-
-### Deploy
-
-Make sure to fund the leo wallet before deploying <https://www.leo.app/blog/aleo-faucet>.
-
-```bash
-leo deploy --network testnet
-```
-
-Use <https://explorer.aleo.org> to view deployment transaction details
 
 ## Demo examples
 
