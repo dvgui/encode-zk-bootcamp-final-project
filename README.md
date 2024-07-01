@@ -1,12 +1,14 @@
 # Final Project - Private Voting System using Aleo Protocol
 
-## Summary
+## Summary -- [Watch Presentation](https://docs.google.com/presentation/d/1rDT50GAlbnS59Rj9qwzWm9K7hlnM48iCCMkKDpNvwvk/edit?usp=sharing)
 
 A Private Voting program built using Leo on the [Aleo protocol](https://aleo.org). This program leverages the power of zero-knowledge proofs to ensure that votes are cast and counted in a secure, private, and verifiable manner.
 
 By using the Aleo protocol, we can provide a voting solution that maintains the confidentiality of each vote while ensuring the integrity and transparency of the overall election process.
 
-This project is the final project of the ZK Bootcamp Q2 2024, showcasing the practical application of zero-knowledge proofs learned during the bootcamp.
+This project is the final project of the ZK Bootcamp Q2 2024, showcasing the practical application of zero-knowledge proofs learned during the BootCamp.
+
+
 
 ## Features
 
